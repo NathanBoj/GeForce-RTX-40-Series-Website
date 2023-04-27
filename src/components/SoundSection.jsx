@@ -15,9 +15,11 @@ export default function SoundSection() {
         <div className="sound-section wrapper">
             <div className="body">
                 <div className="sound-section-content content">
-                    <h2 className="title">New Sound system</h2>
-                    <p className="text">Feel the base</p>
-                    <span className="description">From $$$ a month or 98999$</span>
+                    <h2 className="title">NVIDIA Ada Lovelace Architecture</h2>
+                    <p className="text">Ahead of its Time, <br></br>Ahead of the Game</p>
+                    <span className="description">Up to 2X performance and power efficiency</span>
+                    <span className="description">Up to 4X performance with DLSS 3</span>
+                    <span className="description">Up to 2X ray tracing performance</span>
                     <ul className="links">
                         <li>
                             <button className="button">Buy</button>

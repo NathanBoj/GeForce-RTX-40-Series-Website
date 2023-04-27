@@ -49,9 +49,9 @@ export const scrollAnimation = (position, target, onUpdate) => {
         },
     })
     .to(position, {
-        x: 1.56,
-        y: 5.0,
-        z: 0.01,
+        x: 0,
+        y: 0,
+        z: -11,
         scrollTrigger: {
             trigger: '.display-section',
             start: "top bottom",
@@ -62,9 +62,9 @@ export const scrollAnimation = (position, target, onUpdate) => {
         onUpdate
     })
     .to(target, {
-        x: -0.55,
-        y: 0.32,
-        z: 0.0,
+        x: 0,
+        y: 0,
+        z: 0,
         scrollTrigger: {
             trigger: '.display-section',
             start: "top bottom",

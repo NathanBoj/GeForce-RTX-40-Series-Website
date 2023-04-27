@@ -16,10 +16,12 @@ export default function Jumbotron() {
     return (
         <div className="jumbotron-section wrapper">
             <h2 className="title">New</h2>
-            <img className="logo" src={Iphone} alt ="RTX3090"/>
-            <p className="text">Big and bigger.</p>
             <span className="description">
-                From $$ for 24 mo or $999
+                GeForce RTX 40 Series
+            </span>
+            <p className="text">BEYOND FAST</p>
+            <span className="description">
+                     Out of Stock
             </span>
             <ul className="links">
                 <li>
@@ -29,7 +31,7 @@ export default function Jumbotron() {
                     <a className="link" onClick={handleLearnMore}>Learn More</a>
                 </li>
             </ul>
-            <img className="iphone-img" src={HoldingIphone} alt="GPU" />
+            
 
         </div>
     )

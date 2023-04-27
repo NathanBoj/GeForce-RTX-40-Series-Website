@@ -9,35 +9,32 @@ function Nav() {
             <div className="nav-content">
                 <ul className="list-styled">
                     <li>
-                        <img src={Logo} alt="NVIDIA" width="40px" height="40px" />
+                        <img src={Logo} alt="NVIDIA" width="130px" height="30px" style={{ marginTop: '7px' }}/>
                     </li>
                     <li>
-                        <a className="link-styled">Store</a>
+                        <a className="link-styled">GeForce</a>
                     </li>
                     <li>
-                        <a className="link-styled">Mac</a>
+                        <a className="link-styled">Products</a>
                     </li>
                     <li>
-                        <a className="link-styled">iPhone</a>
+                        <a className="link-styled">Games & Tech </a>
                     </li>
                     <li>
-                        <a className="link-styled">Watch</a>
+                        <a className="link-styled">GeForce Experience</a>
 
                     </li>
                     <li>
-                        <a className="link-styled">AirPods</a>
+                        <a className="link-styled">Drivers</a>
                     </li>
                     <li>
-                        <a className="link-styled">Tv & Home</a>
-                    </li>
-                    <li>
-                        <a className="link-styled">Entertainment</a>
-                    </li>
-                    <li>
-                        <a className="link-styled">Accessories</a>
+                        <a className="link-styled">News</a>
                     </li>
                     <li>
                         <a className="link-styled">Support</a>
+                    </li>
+                    <li>
+                        <a className="link-styled">Shop</a>
                     </li>
                     <li>
                         <img src={Search} alt="Search" />
